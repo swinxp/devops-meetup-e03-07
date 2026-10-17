@@ -8,6 +8,6 @@ patches:
     patch: |-
       - op: replace
         path: /spec/replicas
-        value: 10
+        value: 5
 resources:
   - deployment.yaml
